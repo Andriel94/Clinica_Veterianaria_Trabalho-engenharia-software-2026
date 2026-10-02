@@ -18,7 +18,6 @@ flowchart TD
     cliente -- tem --> pet 
     cliente --> atendente -- "marca/remarca" --> consulta
     consulta -- "chega para" --> veterinario --> exame_veteinario -- "examina" --> pet
-    veterinario -- "preenche" --> furmulario_da_culsulta
+    exame_veteinario -- "preenche" --> furmulario_da_culsulta
     furmulario_da_culsulta -- "vai para" --> cliente
- 
 ```
