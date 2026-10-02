@@ -13,11 +13,11 @@ flowchart TD
 
     consulta["consulta"]
     exame_veteinario["exame_veteinario"]
-    furmulario_da_culsulta["furmalrio_da_culsulta"]
+    furmulario_da_consulta["furmulario_da_consulta"]
 
     cliente -- tem --> pet 
     cliente --> atendente -- "marca/remarca" --> consulta
     consulta -- "chega para" --> veterinario --> exame_veteinario -- "examina" --> pet
-    exame_veteinario -- "preenche" --> furmulario_da_culsulta
-    furmulario_da_culsulta -- "vai para" --> cliente
+    exame_veteinario -- "preenche" --> furmulario_da_consulta
+    furmulario_da_consulta -- "vai para" --> cliente
 ```
