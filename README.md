@@ -42,5 +42,5 @@ classDiagram
     }
     class pet{
         -dono: Cliente
-    }000000000
+    }
 ```
