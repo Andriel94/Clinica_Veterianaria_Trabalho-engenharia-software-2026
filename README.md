@@ -4,7 +4,7 @@ https://www.figma.com/design/tfM8Nz7j2IhWiDiP5KNTXz/Sem-t%C3%ADtulo?node-id=0-1&
 
 ##Diagrama UML
 ```mermaid
-flowchart TD
+flowchart LR
 
     cliente["cliente"]
     pet["pet"]
