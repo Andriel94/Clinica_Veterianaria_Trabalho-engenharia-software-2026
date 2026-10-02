@@ -8,7 +8,7 @@ flowchart TD
 
     cliente["cliente"]
     pet["pet"]
-    atendete["atendete"]
+    atendente["atendente"]
     veterinario["veterinario"]
 
     consulta["consulta"]
@@ -17,8 +17,8 @@ flowchart TD
 
     cliente -- tem --> pet 
     cliente --> atendente -- "marca/remarca" --> consulta
-    consulta -- "chega para" --> veterinairo -- "examina" --> pet
-    veterinairo -- "preenche" --> furmulario_da_culsulta
+    consulta -- "chega para" --> veterinario --> exame_veteinario -- "examina" --> pet
+    veterinario -- "preenche" --> furmulario_da_culsulta
     furmulario_da_culsulta -- "vai para" --> cliente
  
 ```
