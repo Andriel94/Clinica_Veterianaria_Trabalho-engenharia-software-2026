@@ -23,7 +23,7 @@ flowchart LR
     furmulario_da_consulta -- "vai para" --> cliente
 ```
 ###Diagrama de classe
-``` 
+```mermaid
 classDiagram
     class pessoa{
         -CPF:String
@@ -43,5 +43,4 @@ classDiagram
     class pet{
         -dono: Cliente
     }000000000
-
 ```
